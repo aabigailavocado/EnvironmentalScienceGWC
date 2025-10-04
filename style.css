@@ -1,0 +1,92 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+
+}
+
+html body {
+  height: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+  height: 100%;
+
+}
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+  padding-top:50px;
+  padding-top: 20px;
+  font-family: sans-serif
+}
+
+h2 {
+  color: #000000
+  padding-top:50px;
+  padding-bottom: 20px;
+padding: 1em;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 100%;
+  background-image: 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  size: auto;
+}
+
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+}
+li {
+  float: left;
+  font-size: 1em;
+  padding: 1em;
+}
+li a:hover {
+  background-color: #caf0fe;
+}
+
+/* STYLE BUTTONS */
+#myButton{
+  margin-top: 5px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border:0.16em solid rgb(235, 244, 252);
+  color: navy;
+  background-color: white;
+  top: 50%;
+  width: 100%;
+  font-size: 17px;
+}
+#myButton:hover {
+  background-color: #caf0fe;
+  color: white;
+  border:0.16em solid rgb(235, 244, 252);
+}
+
+#myButton:active {
+  background-color: navy(216, 87, 130);
+  box-shadow: 0 5px #666;
+  transform: translateY(15px);
+}
+.uList{
+  align-content: space-around;
+  position: absolute;
+  display: block;
+  
+}
+/* ADD MORE! */
